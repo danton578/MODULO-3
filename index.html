@@ -4,13 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Ruffito Rocks</title>
-        <!--Icon library-->
+        <!--Iconos-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <!--CSS Bootstrap-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <!--Css Personal-->
         <link rel="stylesheet" href="./assets/css/main.css">
-    
+        <!--swiper (para slider)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <!--LINKS CSS ARCHIVO-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">        
     </head>
 <body>
 <header class="header">
@@ -86,6 +89,8 @@
 
     </div>
 </header>
+
+<!--Main seccion-->
 <section class="home" id="home" >
     <div class="content">
         <h3>Somos una empresa <span>Famliar</span> con cobertura a todo chile</h3>
@@ -94,19 +99,256 @@
         <a href="#" class="baner-btn">compre ahora</a>
     </div>
 </section class="catalogo" id="catalogo">
+<!--Main seccion-->
 
+<!--Categoria seccion-->
 <section class="Categorias" id="Categorias">
-    <h1 class="heading"> Nuestras<span>Categorias</span></h1>
+    <h1 class="heading"> Nuestras<span> Categorias</span></h1>
 
     <div class="box-container">
         <div class="box">
-            <img src="insertar img cat 1">
-            <h3>fresh</h3>
+            <img src="assets/IMG/higiene mascotas2.png">
+            <h3>Higiene mascotas</h3>
+
+            <p>Descubre todos nuestros productos
+            para el higiene de tus mascotas</p>
+
+            <a href="#" class="btn-container">Leer mas</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/IMG/juguetes mascota.jpg">
+            <h3>Entretencion mascotas</h3>
+
+            <p>Descubre todos nuestros productos
+            para la Entretencion de tus mascotas</p>
+
+            <a href="#" class="btn-container">Leer mas</a>
+        </div>
+
+        <div class="box">
+            <img src="assets/IMG/comida mascota2.jpg">
+            <h3>Alimentacion mascotas</h3>
+
+            <p>Descubre todos nuestros productos
+            para la alimentacion de tus mascotas</p>
+
+            <a href="#" class="btn-container">Leer mas</a>
         </div>
     </div>
 </section>
+<!--Categoria seccion-->
+<!--Productos seccion-->
+<section class="Productos" id="Productos">
+    <h1 class="heading"> Mejores<span> Productos</span></h1>
 
-    <script src ="./assets/js/index.js"></script>
+    <div class="swiper product-slider">
+        
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box">
+                <img src="assets/IMG/huesos juguete perrito.jpg">
+                <h1>huesos de juguete</h1>
+                <div class="price">$ 2000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/arena para gato.jpg">
+                <h1>Arena para gatos</h1>
+                <div class="price">$ 9000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/arnes de perrito.jpg">
+                <h1>Arnes para Perros</h1>
+                <div class="price">$ 5000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/casa para perros.jpg">
+                <h1>casa para perros</h1>
+                <div class="price">$ 30000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/comida gatos.jpg">
+                <h1>Alimento p/Gato 9kg</h1>
+                <div class="price">$ 15000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/comida perros.jpg">
+                <h1>Alimento p/perro 9kg</h1>
+                <div class="price">$ 23000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/cepillo para gatos.png">
+                <h1>cepillo para gatos</h1>
+                <div class="price">$ 3000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/alimento para peces.jpg">
+                <h1>Alimento P/peces 1kg</h1>
+                <div class="price">$ 5000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/rueda hamster.jpg">
+                <h1>rueda hamster</h1>
+                <div class="price">$ 10000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="assets/IMG/jaula pajaro dibujo.jpg">
+                <h1>Jaula p/ave pequeña</h1>
+                <div class="price">$ 15000</div>
+                <div class="stars">
+                    <!--agrega estrellas-->
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <a href="" class="btn-container">Agregar al carrito</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!--Productos seccion-->
+
+<!--Footer-->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>Ruffo <i class="fa fa-paw"></i></h3>
+            <p>Siguenos en redes sociales para que no te pierdas
+                de ninguna de nuestras ofertas</p>
+            <div class="share">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>    
+        </div>
+
+        <div class="box">
+            <h3>Info. de contacto</h3>
+            <a href="#" class="links"><i class="fa fa-phone"></i>+56 2 2259 6584</a>
+            <a href="#" class="links"><i class="fa fa-phone"></i>+56 9 2596 5584</a>
+            <a href="#" class="links"><i class="fa fa-envelope"></i>info@ruffito.com</a>
+            <a href="#" class="links"><i class="fa fa-map-marker"></i>Santiago, ruffito casita</a>        
+        </div>
+
+        <div class="box">
+            <h3>Links rapidos</h3>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Home</a>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Sobre Nosotros</a>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Productos</a>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Categorias</a>
+            <a href="#" class="links"><i class="fa fa-arrow-right"></i>Blogs</a>
+        </div>
+
+        <div class="box">
+            <h3>Informaciones</h3>
+            <p>Suscribase para actualizaciones</p>
+            <input type="email" placeholder="Ingrese email" class="email">
+            <input type="submit" value="Suscribirse" class="btn-container">
+            <img src="assets/IMG/metodos de pago2.webp" class="imagen_pagos">
+        </div>
+
+    </div>
+</section>
+
+<!--Footer-->
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src ="./assets/js/index.js"></script>
 
 </body>
 </html>
