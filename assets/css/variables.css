@@ -1,0 +1,18 @@
+:root {
+    /*Paleta de colores */
+    --primary-color: #8fbe00;
+
+    --secondary-color200: #aee239;
+    --secondary-color500: #40c0cb;
+    --secondary-color700: #00a8c6;
+
+    --neutral-color-light: #f9f2e7;
+    --neutral-color-dark: #142738;
+
+    /*Tipografías */
+    --third-font: Poppins; 
+    --title-font: Roboto, sans-serif;
+    --body-font: Nunito, sans-serif;
+
+    --title-weight: bold
+}

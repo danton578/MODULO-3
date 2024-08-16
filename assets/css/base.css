@@ -1,0 +1,16 @@
+body{
+    /*background-color: var(--neutral-color-dark);
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;*/
+    text-decoration: none;
+    background: #eee;
+    --green: green;
+    --black: #130f40;
+    --light-color: #666;
+    --box-shadow: 0 .1rem 1rem rgba(0,0,0.1);
+    --border: 2rem solid rgba(0,0,0.1);
+    --outline: .1rem solid rgba(0,0,0.1);
+}
